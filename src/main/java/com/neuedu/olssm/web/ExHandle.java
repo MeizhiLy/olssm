@@ -52,7 +52,7 @@ public class ExHandle {
 		ars.setCode(e.getCode());
 		ars.setMsg(e.getMsg());
 		log.info("∑µªÿ–≈œ¢"+ars);
-		return ApiResult.build().setData(rs);
+		return ApiResult.build().setData(ars);
 		
 	}
 	

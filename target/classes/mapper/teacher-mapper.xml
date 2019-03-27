@@ -9,7 +9,7 @@
 	</insert>
 	
 	<select id="getTeacherByTel" resultType="Teacher" >
-		select tel,pwd,real_name,gender,email,degree,`desc`,create_time from
+		select id,tel,pwd,real_name,gender,email,degree,`desc`,create_time from
 		tb_teacher where tel = #{tel}	
 	</select>
 	
